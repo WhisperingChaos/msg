@@ -3,9 +3,10 @@ package log
 import (
 	"fmt"
 	"log"
-	"msg"
 	"runtime"
 	"strings"
+	
+	"github.com/WhisperingChaos/msg"
 )
 
 func NewError(logger *log.Logger) msg.I {
